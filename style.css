@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Mono&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #eee;
+  font-family: "Fira Mono", Inconsolata, monospace;
+  font-size: 20pt;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('a1.jpg');
+}
+
+table.keys td {
+  padding: 10px;
+  text-align: left;
+}
+
+button.numkey {
+  box-shadow: -6px -6px 9px 0px white, 6px 6px 9px rgba(0, 0, 0, 0.4);
+  font-size: 20pt;
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius:105px 30px;
+  background: #eee;
+  cursor: pointer;
+  outline: none;
+  color: #48c6ef;
+}
+button.numkey:hover, button.numkey:active {
+  background: #aaa;
+  outline: none;
+  color: white;
+  background: linear-gradient(#48c6ef , #6f86d6);
+}
+button.numkey:active {
+  box-shadow: inset -6px -6px 9px 0px rgba(255, 255, 255, 0.4), inset 6px 6px 9px rgba(0, 0, 0, 0.4);
+  outline: none;
+}
+
+.opkey {
+  box-shadow: -6px -6px 9px 0px white, 6px 6px 9px rgba(0, 0, 0, 0.4);
+  font-size: 20pt;
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius:10px 20px;
+  cursor: pointer;
+  background: rgb(32, 30, 30);
+  outline: none;
+  color: white;
+}
+.opkey:hover, .opkey:active {
+  color: #eee;
+  /* background: #666; */
+  outline: none;
+  
+}
+.opkey:active {
+    outline: none;
+
+  box-shadow: inset -6px -6px 9px 0px rgba(255, 255, 255, 0.4), inset 6px 6px 9px rgba(0, 0, 0, 0.4);
+}
+
+.eqkey {
+  box-shadow: -6px -6px 9px 0px white, 6px 6px 9px rgba(0, 0, 0, 0.4);
+  font-size: 20pt;
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  background: linear-gradient(#48c6ef , #6f86d6);
+  outline: none;
+  color: white;
+}
+.eqkey:hover, .eqkey:active {
+  /* background: orange; */
+
+  outline: none;
+  background: linear-gradient(#48c6ef , #6f86d6);
+}
+.eqkey:active {
+    outline: none;
+    
+  box-shadow: inset -6px -6px 9px 0px rgba(255, 255, 255, 0.4), inset 6px 6px 9px rgba(0, 0, 0, 0.4);
+}
+
+main {
+  text-align: center;
+  border-radius:24px 30px;
+  background: #eee;
+  box-shadow:  20px 20px 60px #d9d9d9,
+               -20px -20px 60px #ffffff;
+ padding: 10px;
+ padding-top: 30px;
+ padding-bottom: 20px;
+}
+
+input {
+  -webkit-appearance: none;
+  -mox-appearance: none;
+  appearance: none;
+  width: 320px;
+  height: 60px;
+  padding: 16px 32px;
+  text-align: right;
+  border: none;
+  border-radius: 30px;
+  box-shadow: inset -6px -6px 9px 0px white, inset 6px 6px 9px rgba(0, 0, 0, 0.4);
+  /* text-shadow: 6px 6px 9px #48c6ef; */
+  ;
+  color: #48c6ef;
+  outline: none;
+}
